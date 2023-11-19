@@ -71,7 +71,7 @@ header{
 }
 .contenedor>div{
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    background-color: #2D4263;
+    background-color: blue;
     border-radius: 20px;
 }
 .contenedor>div:hover{
@@ -100,7 +100,7 @@ header{
     font-weight: 300;
 }
 .informacion button{
-    background-color: #263143;
+    background-color: red;
     width: 100px;
     height: 35px;
     border-radius: 10px;
@@ -239,6 +239,9 @@ header{
   @media screen and (max-width: 768px) {
     /* Estilos para pantallas más pequeñas */
     .container {
+        flex-direction: column; /* Cambia la dirección del contenedor a columna */
+    }
+       .carrito  {
         flex-direction: column; /* Cambia la dirección del contenedor a columna */
     }
 }

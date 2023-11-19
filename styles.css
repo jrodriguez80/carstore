@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -217,14 +219,9 @@ header{
 }
 
 /* SECCION RESPONSIVE */
-@media screen and (max-width: 850px) {
-    .contenedor {
-      display: block;
+  @media screen and (max-width: 768px) {
+    /* Estilos para pantallas más pequeñas */
+    .container {
+        flex-direction: column; /* Cambia la dirección del contenedor a columna */
     }
-    .contenedor-items{
-        width: 100% !important;
-    }
-    .carrito{
-        width: 100%;
-    }
-  }
+}

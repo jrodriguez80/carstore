@@ -236,15 +236,22 @@ header{
 }
 
 /* SECCION RESPONSIVE */
-  @media screen and (max-width: 768px) {
-    /* Estilos para pantallas más pequeñas */
-    .container {
-        flex-direction: column; /* Cambia la dirección del contenedor a columna */
+/* SECCION RESPONSIVE */
+@media screen and (max-width: 850px) {
+    .contenedor {
+      display: block;
     }
-       .carrito  {
-        flex-direction: column; /* Cambia la dirección del contenedor a columna */
+    .contenedor-items{
+        width: 100% !important;
     }
-      .carrito-total{
-        flex-direction: column; /* Cambia la dirección del contenedor a columna */
+    .carrito{
+        width: 100%;
     }
-}
+    .carrito-total
+     .carrito{
+        width: 100%;
+    }
+    .fila{
+        width: 100%;
+    }
+  }

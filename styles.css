@@ -244,4 +244,7 @@ header{
        .carrito  {
         flex-direction: column; /* Cambia la dirección del contenedor a columna */
     }
+      .carrito-total{
+        flex-direction: column; /* Cambia la dirección del contenedor a columna */
+    }
 }
